@@ -1,5 +1,5 @@
-# Define URL for Textorizer tool
-COMPUTER_ART_TEXTORIZER_URL="https://lapin-bleu.net/software/textorizer/"
+# Define URL for Texter tool
+COMPUTER_ART_TEXTER_URL="https://tholman.com/texter/"
 # Define URL for Rollage tool
 COMPUTER_ART_ROLLAGE_URL="http://rollage.jhd.cz/"
 # Define URL for Jackson Pollock tool
@@ -25,8 +25,8 @@ function openurl() {
     fi
 }
 
-# Open page with Textorizer online tool
-function textorizer() {
+# Open page with Texter online tool
+function texter() {
     openurl $COMPUTER_ART_TEXTORIZER_URL
 }
 
@@ -149,8 +149,8 @@ function cleanup() {
 function unsource() {
     # Remove openurl function
     unset openurl
-    # Remove textorizer function
-    unset textorizer
+    # Remove texter function
+    unset texter
     # Remove rollage function
     unset rollage
     # Remove pollock function
