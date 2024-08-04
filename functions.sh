@@ -27,7 +27,7 @@ function openurl() {
 
 # Open page with Texter online tool
 function texter() {
-    openurl $COMPUTER_ART_TEXTORIZER_URL
+    openurl $COMPUTER_ART_TEXTER_URL
 }
 
 # Open page with Rollage online tool
